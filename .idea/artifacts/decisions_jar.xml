@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="decisions:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/decisions_jar</output-path>
+    <root id="archive" name="decisions.jar">
+      <element id="module-output" name="decisions" />
+    </root>
+  </artifact>
+</component>

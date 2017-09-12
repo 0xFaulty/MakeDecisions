@@ -1,13 +1,13 @@
 package com.defaulty.decisions;
 
-/**
- * Hello world!
- *
- */
-public class App 
+import com.defaulty.decisions.gui.FirstWindow;
+import com.defaulty.decisions.gui.SecondWindow;
+
+public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        new FirstWindow(400, 300);
+        new SecondWindow(400, 300);
     }
 }
